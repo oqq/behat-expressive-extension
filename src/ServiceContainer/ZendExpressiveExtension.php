@@ -34,7 +34,7 @@ final class ZendExpressiveExtension implements Extension
         $builder
             ->addDefaultsIfNotSet()
             ->children()
-                ->scalarNode('container-file')
+                ->scalarNode('container_file')
                     ->defaultValue(getcwd() . '/config/container.php')
                     ->end()
                 ->end()
@@ -44,7 +44,7 @@ final class ZendExpressiveExtension implements Extension
 
     public function load(ContainerBuilder $containerBuilder, array $config)
     {
-        $containerFile = $config['container-file'];
+        $containerFile = $config['container_file'];
 
         if (!file_exists($containerFile) || !is_readable($containerFile)) {
             throw new \RuntimeException('Could not read file: ' . $containerFile);
