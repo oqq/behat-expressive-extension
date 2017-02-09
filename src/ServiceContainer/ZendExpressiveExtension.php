@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Oqq\ExpressiveExtension\ServiceContainer;
+namespace Oqq\ZendExpressiveExtension\ServiceContainer;
 
 use Behat\Behat\Context\ServiceContainer\ContextExtension;
 use Behat\Testwork\ServiceContainer\Extension;

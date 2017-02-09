@@ -3,7 +3,7 @@
 namespace Oqq\ZendExpressiveExtension\Context;
 
 use Interop\Container\ContainerInterface;
-use Oqq\ExpressiveExtension\ServiceContainer\Stub\Emitter;
+use Oqq\ZendExpressiveExtension\ServiceContainer\Stub\Emitter;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response;

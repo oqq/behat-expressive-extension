@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Oqq\ExpressiveExtension\ServiceContainer\Stub;
+namespace Oqq\ZendExpressiveExtension\ServiceContainer\Stub;
 
 use Psr\Http\Message\ResponseInterface;
 use Zend\Diactoros\Response\EmitterInterface;
