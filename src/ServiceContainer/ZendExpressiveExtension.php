@@ -35,7 +35,7 @@ final class ZendExpressiveExtension implements Extension
             ->addDefaultsIfNotSet()
             ->children()
                 ->scalarNode('container-file')
-                    ->defaultValue(getcwd() . '/config/test-container.php')
+                    ->defaultValue(getcwd() . '/config/container.php')
                     ->end()
                 ->end()
             ->end()
