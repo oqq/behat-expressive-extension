@@ -1,0 +1,21 @@
+{
+  "name": "oqq/behat-expressive-extension",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric Braun",
+      "email": "eb@oqq.be"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "behat/behat": "^3.3",
+    "zendframework/zend-expressive": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oqq\\ZendExpressiveExtension\\": "src/"
+    }
+  }
+}
